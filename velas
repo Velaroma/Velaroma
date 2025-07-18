@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velaromas | Velas Artesanales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffdfd0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #7a4e3b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .producto {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .producto img {
+      width: 150px;
+      border-radius: 12px;
+    }
+
+    .producto-info h3 {
+      margin: 0 0 10px;
+    }
+
+    footer {
+      background-color: #ffdfd0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    .boton {
+      background-color: #e89f71;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .boton:hover {
+      background-color: #d27f4d;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Velaromas</h1>
+    <p>Velas artesanales hechas con amor</p>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#nosotras">Nosotras</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="productos">
+    <h2>🕯️ Nuestras Velas</h2>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/150" alt="Vela Aromática">
+      <div class="producto-info">
+        <h3>Vela de Lavanda (30g)</h3>
+        <p>Aromática, relajante y perfecta para tus espacios.</p>
+        <p><strong>L.80.00</strong></p>
+        <a class="boton" href="https://wa.me/504XXXXXXXX">Pedir por WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/150" alt="Vela de Canela">
+      <div class="producto-info">
+        <h3>Vela de Canela y Coco</h3>
+        <p>Endulza tu hogar con un aroma cálido y acogedor.</p>
+        <p><strong>L.90.00</strong></p>
+        <a class="boton" href="https://wa.me/504XXXXXXXX">Pedir por WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Podés agregar más productos copiando esta estructura -->
+
+  </section>
+
+  <section id="nosotras">
+    <h2>💖 Sobre Nosotras</h2>
+    <p>Somos un emprendimiento hondureño dedicado a crear velas artesanales con ingredientes naturales y mucho amor. Queremos llenar tus días de luz, aroma y calidez.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>📲 Contacto</h2>
+    <p>📍 Santa Elena, Choluteca</p>
+    <p>📞 WhatsApp: <a href="https://wa.me/504XXXXXXXX" class="boton">Escribinos aquí</a></p>
+    <p>📸 Instagram: <a href="https://instagram.com/tu_instagram" target="_blank">@tu_instagram</a></p>
+  </section>
+
+  <footer>
+    © 2025 Velaromas - Todos los derechos reservados
+  </footer>
+
+</body>
+</html> 
